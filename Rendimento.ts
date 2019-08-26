@@ -1,0 +1,4 @@
+interface Rendimento {
+
+    gerarRelatorio():void;
+}

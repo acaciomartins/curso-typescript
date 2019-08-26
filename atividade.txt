@@ -1,0 +1,22 @@
+Construir classes para controlar Contas do tipo Corrente, Poupança e Rendimento
+Conta 
+Atributos: Numero, Saldo
+Métodos: depositar, sacar, valorizar
+Após o saque informar o saldo:
+Saque realizado com sucesso. Seu novo saldo é de: " + saldo)
+
+Implementar uma interface de Rendimento para todos os tipos de conta
+Método: gerarRelatorio
+Conta Investimento, Número da conta: " + numero + ", Saldo atual: " + saldo + ", Rendimento: " + rendimento_atual);
+
+Conta Corrente 
+rendimento = saldo
+saque = taxa de 0.02
+
+Conta Poupança
+rendimento = saldo * 0.02
+saque = taxa de 0.04
+
+Conta Rendimento
+rendimento = saldo * 0.05
+saque = taxa de 0.06
